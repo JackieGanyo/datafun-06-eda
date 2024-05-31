@@ -102,7 +102,7 @@ Choose a categorical column and use df['column_name'].value_counts() to display 
 Jupyter Notebook / Python cell example:
 
 Inspect value counts by categorical column
-df['species'].value_counts()
+df.value_counts()
 
 Inspect value counts for all categorical columns
 for col in df.select_dtypes(include=['object', 'category']).columns:

@@ -50,12 +50,12 @@ Perform a unique exploratory data analysis project using the tools and skills co
 
 #### Step 1. Data Acquisition
 
-Load the data into a pandas DataFrame. Use the pd read functions such as pd.read_csv() or pd.read_excel() as appropriate. To read from the Seaborn dataset, we'll use sns.load_dataset() function and pass in the 'iris' (the name without .csv) to populate our DataFrame.
+ To read from the Seaborn dataset, we'll use sns.load_dataset() function and pass in the 'healthexp' (the name without .csv) to populate the DataFrame.
 
 Jupyter Notebook / Python cell example:
 
 Load the dataset into a pandas DataFrame - adjust this process for your custom data
-df = sns.load_dataset('iris')
+df = sns.load_dataset('healthexp')
 
 Inspect first rows of the DataFrame
 print(df.head())
@@ -83,9 +83,10 @@ print(df.describe())
 Choose a numerical column and use df['column_name'].hist() to plot a histogram for that specific column. To show all the histograms for all numerical columns, use df.hist().
 
 Jupyter Notebook / Python cell example:
+Plots for Year, USD spent, and Life Expectancy created 
 
 Inspect histogram by numerical column
-df['sepal_length'].hist()
+df.hist()
 
 Inspect histograms for all numerical columns
 df.hist()

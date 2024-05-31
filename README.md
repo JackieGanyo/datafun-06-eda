@@ -83,7 +83,7 @@ print(df.describe())
 Choose a numerical column and use df['column_name'].hist() to plot a histogram for that specific column. To show all the histograms for all numerical columns, use df.hist().
 
 Jupyter Notebook / Python cell example:
-Plots for Year, USD spent, and Life Expectancy created 
+Plots for Year, USD spent, and Life Expectancy created
 
 Inspect histogram by numerical column
 df.hist()

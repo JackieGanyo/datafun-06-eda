@@ -100,10 +100,11 @@ Afterwards, use a Markdown cell to document your observations.
 Choose a categorical column and use df['column_name'].value_counts() to display the count of each category. Use a loop to show the value counts for all categorical columns.
 
 Jupyter Notebook / Python cell example:
-#Inspect value counts by categorical column
+
+Inspect value counts by categorical column
 df.value_counts()
 
-#nspect value counts for all categorical columns
+Inspect value counts for all categorical columns
 for col in df.select_dtypes(include=['object', 'category']).columns:
     # Display count plot
     sns.countplot(x=col, data=df)

@@ -136,3 +136,5 @@ Story: Use Markdown cell(s) to document your observations and insights.
 #### Step 8. Initial Storytelling and Presentation
 
 Present your notebook with an opening that introduces yourself and your topic. Use Markdown section headings to introduce each step. Interpret the visualizations and statistics to narrate a clear and compelling data story. Present your findings in a logical and engaging manner.
+
+Link to .ipynb in github <https://github.com/JackieGanyo/datafun-06-eda/blob/main/JGanyo_eda.ipynb>
